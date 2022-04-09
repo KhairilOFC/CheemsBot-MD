@@ -3244,7 +3244,7 @@ break
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `BebanBot Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
