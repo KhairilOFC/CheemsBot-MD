@@ -590,11 +590,11 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
 	    case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/6ba2aed566865a068e91f.jpg' }, caption: `*Hi bro ${m.pushName}*\n\n Bot Rental Price\n⭔ 250INR Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/916909137213 (Owner)\n\nDonate Me : \n\n⭔ Fampay : https://telegra.ph/file/6ba2aed566865a068e91f.jpg\n⭔ Paytm : https://telegra.ph/file/577bd4f28d90ca2c7f369.jpg` }, { quoted: m })
+                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f9f0d394a0d3c94440ebf.jpg' }, caption: `*Hi bro ${m.pushName}*\n\n Bot Rental Price\n⭔ RM15 Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/60109102984 (Owner)\n\nDonate Me : \n\n⭔ Fampay : https://telegra.ph/file/f9f0d394a0d3c94440ebf.jpg \n⭔ Paytm : https://telegra.ph/file/577bd4f28d90ca2c7f369.jpg` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
-                reply('Script : https://github.com/DGXeon/CheemsBot-MD\n Dont Forget To Give Star\n\nYoutube : https://youtu.be/imFIX-Wrt3s\n Dont Forget To Subscribe')
+                reply('Script : https://github.com/KhairilOFC\n Dont Forget To Give Star\n\nYoutube : https://youtu.be/imFIX-Wrt3s\n Dont Forget To Subscribe')
             }
             break
             case 'chat': {
@@ -1210,12 +1210,12 @@ case 'antilink':
                     let btn = [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    url: 'https://github.com/KhairilOFC'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number👤',
-                                    phoneNumber: '+91 690-9137-213'
+                                    phoneNumber: '++60 10-910 2984'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1250,7 +1250,7 @@ case 'antilink':
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Script🔖',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    url: 'https://github.com/KhairilOFC'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2171,7 +2171,7 @@ View list of message with ${prefix}listmsg`)
 				let buttons = [{
                                 urlButton: {
                                     displayText: 'Report Bug🐛',
-                                    url: 'https://wa.me/916909137213?text=hello+bro+i+found+a+bug+in+your+bot'
+                                    url: 'https://wa.me/60109102984?text=hello+bro+i+found+a+bug+in+your+bot'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2387,12 +2387,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/idiiss-Wrt3s'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    url: 'https://github.com/KhairilOFC'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2447,12 +2447,12 @@ Please Select Button Below
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/imFIX-idiiss'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    url: 'https://github.com/KhairilOFC'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2482,7 +2482,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Menu\n\n`,
                     buttonText: "Menu",
-                    footerText: "_Cheems Bot-MD_",
+                    footerText: "_Beban Bot-MD_",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Group Features",
@@ -2617,7 +2617,7 @@ case 'grupmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/imFIX-idiiss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2659,7 +2659,7 @@ case 'downloadmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/imFIX-idiiss'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2696,7 +2696,7 @@ case 'downloadmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/imFIXeieieWrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2727,7 +2727,7 @@ case 'randommenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/imFIXeieieWrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2759,7 +2759,7 @@ case 'funmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/imFIXieieoeWrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2799,7 +2799,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/imFIXdidkkdiWrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2833,7 +2833,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/imFIX-sisis'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2891,7 +2891,7 @@ case 'horoscopemenukcodk': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/ririir-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2929,7 +2929,7 @@ case 'convertmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/imFIXtototor-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2969,7 +2969,7 @@ case 'nocategorymenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/imFIXroororirWrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3006,7 +3006,7 @@ case 'databasemenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/imFIXogototoWrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3038,7 +3038,7 @@ case 'anonymouschatmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/imFIX-fkririr'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3070,7 +3070,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/ggrfff-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3107,7 +3107,7 @@ break
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/imFIXrororkWrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3248,7 +3248,7 @@ break
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/kejeje'
                                 }
                             }, {
                                 quickReplyButton: {
